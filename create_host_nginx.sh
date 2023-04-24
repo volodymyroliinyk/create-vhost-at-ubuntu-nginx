@@ -32,7 +32,7 @@ echo "server {
 mkdir $project_document_root
 chmod 777 -R $project_document_root
 echo "your first page" > $project_document_root/index.php
-chmod 777 -R $project_document_root/index.php
+chmod 777 $project_document_root/index.php
 
 ln -s $nginx_site_available /etc/nginx/sites-enabled/
 

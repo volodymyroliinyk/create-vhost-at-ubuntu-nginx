@@ -2,7 +2,7 @@
 # Fast way create virtual host for Ubuntu Nginx PHP.
 # 1) Don`t use symbol "_" for local domain name.
 # 2) Open file `/etc/hosts` and string `#localhost` to the end of file (one-time step).
-# 3) Run script under root user: `sudo -s;sh create_host_nginx.sh domain-name.local`
+# 3) Run script under root user: `sudo -s;sh create_host_nginx.sh <domain-name.local>;`
 
 new_site_name=$1
 project_document_root="/var/www/html/$new_site_name"

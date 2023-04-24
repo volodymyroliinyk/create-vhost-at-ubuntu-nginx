@@ -1,6 +1,6 @@
 # create-vhost-at-ubuntu-nginx
 
-Shell script helps quickly create Nginx host for any web projecton your local machine.
+Shell script helps quickly create Nginx host for any web project on your local machine.
 
 - Don't use symbol "_" for local domain name.
 - Open file `/etc/hosts` and add string `#localhost` to the end.
